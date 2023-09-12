@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 53rem;
+  }
+  
+  main {
+    margin-top: 0;
+    background-color: blue;
+    height: 100%;
+  
+  }
+  
+  h1 {
+    font: 2rem "Play";
+    color: #fadd05;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h2 {
+    font: 1rem "Play";
+    color: #fadd05;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  p {
+    font: 1rem "Play";
+    color: #fadd05;
+  
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  /* This is the top ribbon which contains the red Popular Pokemon (by name) buttons */
+  .header {
+    margin-top: 0;
+    background-color: red;
+  }
+  
+  /* This controls the postion of the buttons within the header*/
+  .popPokebtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    flex-wrap: wrap;
+  }
+  
+  /* These are the style controls over the header buttons themselves */
+  .popPoke {
+    border: 0;
+    height: 2rem;
+    width: 6.5rem;
+    color: white;
+    background-color: red;
+    font: 400 1rem "Play";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .popPoke:hover {
+    background-color: #fadd05;
+    color: blue;
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+  }
+  
+  /* The logobox contains the Pokemon logo */
+  .logoBox {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logoBox img {
+    width: 28rem;
+  }
+  
+  .searchBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+  }
+  
+  .searchBox input {
+    border-radius: 8px;
+    border: 0;
+    outline: none;
+    height: 36px;
+    padding: 4px 16px;
+    margin-right: 4px;
+    background-color: white;
+    color: #000;
+    font: 400 1rem "Play";
+  }
+  
+  .searchBox button {
+    border-radius: 8px;
+    border: 0;
+    height: 36px;
+    padding: 4px 16px;
+    background-color: white;
+    color: black;
+    font: 400 1rem "Play";
+  }
+  
+  .searchBox button:hover {
+    background-color: red;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+    cursor: pointer;
+  }
+  
+  /* Table stores fetched Pokemon data */
+  table {
+    display: flex;
+    justify-content: center;
+    font: 2rem "Play";
+    color: #fadd05;
+    height: 20rem;
+  }
+  
+  #smaller {
+    font: 1rem "Play";
+    color: #fadd05;
+  }
+  
+  #fixedheight {
+    height: 8rem;
+  }
+  
+  #fixedheight1 {
+    height: 2rem;
+  }
+  
+  .pokeName {
+    width: 12rem;
+  }
+  
+  .stats {
+    padding: 6rem 0;
+  
+  }
+  
+  .ID {
+    display: flex;
+  }
+  
+  .Weight {
+    display: flex;
+  }
+  
+  .Height {
+    display: flex;
+  }
+  
+  .Base_Experience {
+    display: flex;
+  }
+  
+  .imageBox {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8rem;
+  }
+  
+  .imageBox img {
+    height: 300px;
+  
+  }
+  
+  .shinyBox img {
+    width: 8rem;
+  }
+  
+  /* Container holding number buttons */
+  #butbox {
+    background-color: blue;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  
+  numberbutton {
+    border-radius: 10px;
+    border: 0;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    color: black;
+    font: 10px "Play";
+    margin: 2px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  numberbutton:hover {
+    background-color: #fadd05;
+    color: red;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+    cursor: pointer;
+  }
