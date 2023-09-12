@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="API.css" />
+    <script src="API.js"></script>
+    <title>Pokemon API</title>
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <div class="popPokebtns">
+          <button class="popPoke" id="charizard" type="text">Charizard</button>
+          <button class="popPoke" id="gardevoir" type="text">Gardevoir</button>
+          <button class="popPoke" id="sylveon" type="text">Sylveon</button>
+          <button class="popPoke" id="lucario" type="text">Lucario</button>
+          <button class="popPoke" id="gengar" type="text">Gengar</button>
+          <button class="popPoke" id="umbreon" type="text">Umbreon</button>
+          <button class="popPoke" id="garchomp" type="text">Garchomp</button>
+          <button class="popPoke" id="mimikyu" type="text">Mimikyu</button>
+          <button class="popPoke" id="rayquaza" type="text">Rayquaza</button>
+          <button class="popPoke" id="greninja" type="text">Greninja</button>
+        </div>
+      </div>
+    <br>
+      <div class="logoBox">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pokémon_logo.svg/1200px-International_Pokémon_logo.svg.png" alt="International Pokémon logo.svg">
+          <a href="https://commons.wikimedia.org/w/index.php?curid=16063375"></a>
+      </div>
+      <div class="searchBox">
+        <input id="pokemonName" type="Pokemon name" placeholder="Pokemon Name or ID"/>
+        <button id="search">GO!</button>
+      </div>
+    <br>
+      <h2>Got to Catch 'Em All? View all IDs up to #1010</h2>
+    <br>
+      <table>
+        <tr id="fixedheight1">
+          <th class="statshead" id="smaller"></th>
+          <th class="pokeName"></th>
+          <th class="shiny" id="smaller"></th>
+        </tr>
+        <tr id="fixedheight">
+          <th class="stats">
+            <p class="ID"></p>
+            <p class="Weight"></p>
+            <p class="Height"></p>
+            <p class="Base_Experience"></p>
+          </th>
+          <th class="imageBox">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png" alt="Poké Ball icon.svg"></a>
+              <a href="https://commons.wikimedia.org/w/index.php?curid=52462734"></a>
+          </th>
+          <th class="shinyBox"></th>
+        </tr>
+      </table>
+    <br>
+      <h2>Choose a 1st Generation Pokemon by clicking one of the buttons below (or type the Name or ID into the search box above)</h2>
+      <div id="butbox"></div>
+    </main>
+  </body>
+</html>
